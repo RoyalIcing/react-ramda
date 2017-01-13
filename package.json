@@ -1,0 +1,26 @@
+{
+  "name": "react-ramda",
+  "version": "0.1.1",
+  "description": "Functional utilities for React component state",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "repository": {
+    "url": "https://github.com/BurntCaramel/react-ramda.git",
+    "type": "git"
+  },
+  "author": "Patrick Smith <pgwsmith@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "ramda": "^0.23.0",
+    "react": "^15.4.2"
+  },
+  "devDependencies": {
+    "buble": "^0.15.2"
+  },
+  "scripts": {
+    "build": "buble -i src -o lib"
+  }
+}
